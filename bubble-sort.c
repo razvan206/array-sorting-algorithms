@@ -1,31 +1,53 @@
-#include <stdio.h>
-
-void swap(int* arr, int i, int j) {
-    int temp = arr[i];
-    arr[i] = arr[j];
-    arr[j] = temp;
+#include <stdio.h> 
+ 
+#define MAX_LEN 100
+ 
+static void swap(int *x, int *y)
+{ 
+    int tmp = *x; 
+    *x = *y; 
+    *y = tmp; 
+} 
+ 
+static void bubble_sort(int *array, int len)
+{ 
+    int i, j;
+ 
+    for (i = 0; i < len - 1; i++)
+        for (j = 0; j < len - 1; j++)  
+            if (array[j] > array[j + 1]) 
+                swap(&array[j], &array[j + 1]); 
 }
-
-void bubbleSort(int arr[], int n) {
-    for (int i = 0; i < n - 1; i++) {
-      
-        // Last i elements are already in place, so the loop
-        // will only num n - i - 1 times
-        for (int j = 0; j < n - i - 1; j++) {
-            if (arr[j] > arr[j + 1])
-                swap(arr, j, j + 1);
-        }
+ 
+static void print_array(int *array, int len)
+{
+    int i;
+ 
+    for (i = 0; i < len; i++) {
+        printf("%d ", array[i]);
     }
+    printf("\n");
 }
-
-int main() {
-    int arr[] = { 5, 6, 1, 3 };
-    int n = sizeof(arr) / sizeof(arr[0]);
-
-    // Calling bubble sort on array arr
-    bubbleSort(arr, n);
-    
-    for (int i = 0; i < n; i++)
-        printf("%d ", arr[i]);
-    return 0;
-}
+ 
+int main()
+{
+    int array[MAX_LEN], len, i;
+ 
+    printf("What's the length of the array? Maximum lenght is %d\n", MAX_LEN);
+    scanf("%d", &len);
+ 
+    printf("Gimme the %d elements\n", len);
+    for (i = 0; i < len; i++) {
+    scanf("%d", &array[i]);
+    }
+ 
+    printf("Nonsorted array: ");
+    print_array(array, len);
+ 
+    bubble_sort(array, len);
+ 
+    printf("Sorted array: ");
+    print_array(array, len);
+ 
+    return 0; 
+} 

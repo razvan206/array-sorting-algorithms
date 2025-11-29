@@ -1,0 +1,53 @@
+[33mcommit 1bd67a7418f610be7568f82988e9b9fe4f259b90[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Voica Razvan Mihai <razvyvoica@gmail.com>
+Date:   Sat Nov 29 21:12:47 2025 +0200
+
+    Modified merge sort
+
+[33mcommit f0f39cc7b74fac841d17ca67af50d935690bd2ff[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Voica Razvan Mihai <razvyvoica@gmail.com>
+Date:   Sat Nov 29 21:09:51 2025 +0200
+
+    added .gitignore
+
+[33mcommit 4abe88b4cd31f10ce2f570421f546579dd492623[m
+Author: Voica Razvan Mihai <razvyvoica@gmail.com>
+Date:   Sat Nov 29 21:03:12 2025 +0200
+
+    added .gitignore
+
+[33mcommit 5ef1902f1cb8f739e0a11d94119edcbe460bc21e[m
+Author: Student USO VM User <student@stud.acs.upb.ro>
+Date:   Tue Nov 25 18:53:46 2025 +0200
+
+    Added new title to README
+
+[33mcommit 9cef80ef5acee8d3ef3f360d62313adb0b32ca90[m
+Author: Student USO VM User <student@stud.acs.upb.ro>
+Date:   Tue Nov 25 18:50:48 2025 +0200
+
+    Update readme with project explanation
+
+[33mcommit e866c6746c4add59e00c061b28f83747a458d1d3[m
+Author: Student USO VM User <student@stud.acs.upb.ro>
+Date:   Tue Nov 25 18:48:58 2025 +0200
+
+    merge-sort.c
+
+[33mcommit 149ca421433d96fc4b4142740dada0557dbaa73d[m
+Author: Student USO VM User <student@stud.acs.upb.ro>
+Date:   Tue Nov 25 18:46:31 2025 +0200
+
+    Added radix-sort algorithm
+
+[33mcommit dcff54c3eba84820141a66cd65fdc45302c7bedb[m
+Author: Student USO VM User <student@stud.acs.upb.ro>
+Date:   Tue Nov 25 18:42:15 2025 +0200
+
+    Add Bubble Sort algorithm
+
+[33mcommit cbfbce4053f6e4419824842be2eae789ec0ea36a[m
+Author: Student USO VM User <student@stud.acs.upb.ro>
+Date:   Tue Nov 25 18:39:36 2025 +0200
+
+    Add README file
